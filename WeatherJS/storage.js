@@ -6,7 +6,7 @@ class Storage {
         this.defaultCountry = 'US';
     }
 
-    //Step 2. Returns city and country values.
+    //Returns city and country values.
     getLocationData() {
         if(localStorage.getItem('city') === null||'undefined') {
             this.city = this.defaultCity;
