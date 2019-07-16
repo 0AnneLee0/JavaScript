@@ -1,1 +1,1 @@
-Projects from course assignments.
+
